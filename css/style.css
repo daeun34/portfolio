@@ -59,9 +59,9 @@ body {
     font-size: 20px;
 }
 
-.h-50 {
+/*.h-50 {
     height: 50px;
-}
+}*/
 
 /*span*/
 .size-50 span{
@@ -834,12 +834,13 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 30px 0;
-    background: #fffaee
+    padding: 0 0 30px 0;
+    background: #fff;
 }
 #contact p{
-	
 	font-weight:700;
+    font-size: 16px;
+    line-height: 27px;
 }
 #contact-form input,
 #contact-form textarea {
@@ -978,9 +979,6 @@ fieldset {
 	.about-img-div img {
         margin: 30px auto;
     }
-    .item_info h3{
-        padding-top: 20px;
-    }
 }
 
 @media (max-width: 500px) {
@@ -1046,10 +1044,7 @@ fieldset {
 		height: 2px;
 		background: #fff;
 		top: 9px;
-	}
-	.item_info{
-	padding-top:30px;
-}	
+	}	
 	
 }
 
@@ -1065,7 +1060,7 @@ fieldset {
 .portfolio_container .col-md-12{padding-left:0;
 	padding-right:0;}
 .item_info{
-	padding-top:30px;
+	padding-top:80px;
 }	
 .project_btn{
     display:inline-block;
